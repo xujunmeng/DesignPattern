@@ -1,7 +1,7 @@
 package 建造者模式;
 
-import com.google.common.collect.Lists;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Meal {
 
-    private List<Item> items = Lists.newArrayList();
+    private List<Item> items = new ArrayList<>();
 
     /**
      * 给套餐添加条目
